@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MSG_AccessDenied" xml:space="preserve">
+    <value>Acceso denegado</value>
+  </data>
+  <data name="MSG_CantFindUser" xml:space="preserve">
+    <value>Usuario no encontrado</value>
+  </data>
+  <data name="MSG_ChangeCategoryOK" xml:space="preserve">
+    <value>La categoría ha sido cambiada satisfactoriamente</value>
+  </data>
+  <data name="MSG_ChangePasswOK" xml:space="preserve">
+    <value>Su contraseña ha sido cambiada satisfactoriamente</value>
+  </data>
+  <data name="MSG_CheckBothPassWD" xml:space="preserve">
+    <value>Compruebe que las contraseñas nuevas sean iguales</value>
+  </data>
+  <data name="MSG_DB_AccessError" xml:space="preserve">
+    <value>Error de acceso a la base de datos</value>
+  </data>
+  <data name="MSG_InfoNotLoaded" xml:space="preserve">
+    <value>Problemas al cargar la información de las pruebas</value>
+  </data>
+  <data name="MSG_LostConfig" xml:space="preserve">
+    <value>El sistema se ha recuperado de la pérdida de información importante. El paciente ha sido insertado con el código:</value>
+  </data>
+  <data name="MSG_Paciente_AddOK" xml:space="preserve">
+    <value>El paciente ha sido agregado a la Base de Datos</value>
+  </data>
+  <data name="MSG_Paciente_ConfirmDelete" xml:space="preserve">
+    <value>Está seguro de que desea eliminar este paciente?</value>
+  </data>
+  <data name="MSG_Paciente_EditOK" xml:space="preserve">
+    <value>La actualización ha sido un éxito</value>
+  </data>
+  <data name="MSG_Paciente_InputDataError" xml:space="preserve">
+    <value>Error en la entrada de los datos</value>
+  </data>
+  <data name="MSG_PreviewNotLoaded" xml:space="preserve">
+    <value>Problemas al cargar la vista previa</value>
+  </data>
+  <data name="MSG_SearchFinished" xml:space="preserve">
+    <value>Ha concluido la búsqueda</value>
+  </data>
+  <data name="MSG_Usuario_AddOK" xml:space="preserve">
+    <value>El ususario ha sido agregado a la Base de Datos</value>
+  </data>
+  <data name="MSG_Usuario_LoginNotAcepted" xml:space="preserve">
+    <value>Nombre de usuario no aceptado</value>
+  </data>
+  <data name="MSG_Usuario_LoginNotAvailable" xml:space="preserve">
+    <value>El nombre de usuario no está disponible</value>
+  </data>
+  <data name="PATH_Config" xml:space="preserve">
+    <value>Params.config</value>
+  </data>
+  <data name="PATH_Xml" xml:space="preserve">
+    <value>Info.xml</value>
+  </data>
+  <data name="TITLE_AddPatient" xml:space="preserve">
+    <value>Agregar Sujeto</value>
+  </data>
+  <data name="TITLE_EditPatient" xml:space="preserve">
+    <value>Editar Sujeto</value>
+  </data>
+  <data name="TITLE_Results" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="ComboValue_ASS_Colores" xml:space="preserve">
+    <value>Atención Sostenida Simple</value>
+  </data>
+  <data name="ComboValue_ASS" xml:space="preserve">
+    <value>Atención Sostenida Simple (Figuras)</value>
+  </data>
+  <data name="ComboValue_ASC" xml:space="preserve">
+    <value>Atención Sostenida Compleja (Figuras)</value>
+  </data>
+  <data name="MSG_ClosePreViewError" xml:space="preserve">
+    <value>Error al cerrar la vista previa</value>
+  </data>
+  <data name="ComboValue_PVA" xml:space="preserve">
+    <value>Pares Visuales Asociados</value>
+  </data>
+  <data name="ComboValue_PVA2" xml:space="preserve">
+    <value>Pares Visuales Asociados (2)</value>
+  </data>
+  <data name="ComboValue_TRS" xml:space="preserve">
+    <value>Tiempo de Reacción 1</value>
+  </data>
+  <data name="ComboValue_TRC" xml:space="preserve">
+    <value>Tiempo de Reacción 2</value>
+  </data>
+  <data name="ComboValue_RL" xml:space="preserve">
+    <value>Aprendizaje de Palabras</value>
+  </data>
+  <data name="ComboValue_AM" xml:space="preserve">
+    <value>Amplitud de Memoria</value>
+  </data>
+  <data name="ComboValue_MF" xml:space="preserve">
+    <value>Memoria de Figuras</value>
+  </data>
+  <data name="Combovalue_EM" xml:space="preserve">
+    <value>Estimación del Movimiento</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_Paciente_CodeNotAvailable" xml:space="preserve">
+    <value>El código que escogió no se encuentra disponible</value>
+  </data>
+  <data name="MSG_Select_Patient" xml:space="preserve">
+    <value>Seleccione un sujeto</value>
+  </data>
+  <data name="MSG_Select_Test" xml:space="preserve">
+    <value>Seleccione un Test</value>
+  </data>
+  <data name="MSG_Usuario_UserNotFoud" xml:space="preserve">
+    <value>Usuario no encontrado</value>
+  </data>
+  <data name="MSG_Usuario_AskForDelete" xml:space="preserve">
+    <value>Esta seguro que desea eliminar este usuario</value>
+  </data>
+  <data name="MSG_Usuario_CantDelete" xml:space="preserve">
+    <value>El usuario no puede ser eliminado</value>
+  </data>
+  <data name="MSG_Usuario_SelectAnUser" xml:space="preserve">
+    <value>Seleccione un usuario</value>
+  </data>
+  <data name="ComboValue_ASC_L" xml:space="preserve">
+    <value>Atención Sostenida Compleja (Letras)</value>
+  </data>
+  <data name="ComboValue_ASS_L" xml:space="preserve">
+    <value>Atención Sostenida Simple (Letras)</value>
+  </data>
+  <data name="MSG_Excel_PathNotFoud" xml:space="preserve">
+    <value>Error al cargar camino al fichero Excel base</value>
+  </data>
+  <data name="MSG_Excel_FileNotFound" xml:space="preserve">
+    <value>Error al cargar fichero Excel base</value>
+  </data>
+  <data name="MSG_Excel_ExportError" xml:space="preserve">
+    <value>Ha ocurrido un error al intentar exportar los datos.</value>
+  </data>
+  <data name="MSG_Excel_ExportOK" xml:space="preserve">
+    <value>Ha terminado el proceso satisfactoriamente.</value>
+  </data>
+  <data name="MSG_MainFormStatus_Exporting2Excel" xml:space="preserve">
+    <value>Exportando los datos a Excel...</value>
+  </data>
+  <data name="MSG_MainFormStatus_OperationComplete" xml:space="preserve">
+    <value>Operación finalizada</value>
+  </data>
+  <data name="MSG_Error_ClosingPreview" xml:space="preserve">
+    <value>Cerrando vista previa</value>
+  </data>
+  <data name="MSG_Error_OpeningPreview" xml:space="preserve">
+    <value>Poniendo vista previa</value>
+  </data>
+  <data name="MSG_Error_Configuring" xml:space="preserve">
+    <value>Configurando y ...</value>
+  </data>
+  <data name="TESTCODE_MF" xml:space="preserve">
+    <value>MF</value>
+  </data>
+  <data name="TESTCODE_PVA1" xml:space="preserve">
+    <value>PVA</value>
+  </data>
+  <data name="TESTCODE_PVA2" xml:space="preserve">
+    <value>PVA2</value>
+  </data>
+  <data name="TESTCODE_AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="TESTCODE_RL" xml:space="preserve">
+    <value>RL</value>
+  </data>
+  <data name="MSG_Done" xml:space="preserve">
+    <value>Terminado</value>
+  </data>
+  <data name="TESTCODE_TRS" xml:space="preserve">
+    <value>TRS</value>
+  </data>
+  <data name="TESTCODE_TRC" xml:space="preserve">
+    <value>TRC</value>
+  </data>
+  <data name="TESTCODE_EM" xml:space="preserve">
+    <value>EM</value>
+  </data>
+  <data name="KeyName_Enter" xml:space="preserve">
+    <value>[Enter]</value>
+  </data>
+  <data name="KeyName_Space" xml:space="preserve">
+    <value>[Espacio]</value>
+  </data>
+  <data name="TESTCODE_ASS" xml:space="preserve">
+    <value>ASS</value>
+  </data>
+  <data name="FILE_ActKey" xml:space="preserve">
+    <value>actvn.arlic</value>
+  </data>
+  <data name="AS_ResultView_Homogénea_Imágenes" xml:space="preserve">
+    <value>Homogénea, Imágenes</value>
+  </data>
+  <data name="AS_ResultView_Homogenea_Figuras" xml:space="preserve">
+    <value>Homogénea, Figuras abstractas</value>
+  </data>
+  <data name="AS_ResultView_Homognea_Letras" xml:space="preserve">
+    <value>Homogénea, Letras</value>
+  </data>
+  <data name="AS_ResultView_Colores_Imagenes" xml:space="preserve">
+    <value>Colores, Imágenes</value>
+  </data>
+  <data name="AS_ResultView_Colores_Letras" xml:space="preserve">
+    <value>Colores, Letras</value>
+  </data>
+  <data name="TAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_PaswordMandatory" xml:space="preserve">
+    <value>Por favor, escriba una contraseña</value>
+  </data>
+  <data name="MSG_Edad_NotInRange" xml:space="preserve">
+    <value>No es posible agregar pacientes con esa edad.</value>
+  </data>
+  <data name="MSG_TestNotForSelectedAge" xml:space="preserve">
+    <value>Testo no disponible para pacientes de {0} años</value>
+  </data>
+</root>

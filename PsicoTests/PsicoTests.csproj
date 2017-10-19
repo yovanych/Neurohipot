@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{014BD2EE-4DFA-40FE-BF32-8D2A316DEB84}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PsicoTests</RootNamespace>
+    <AssemblyName>PsicoTests</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\PsicoTests.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pruebas Alejandro\Amplitud_Memoria\Amplitud_Memoria.cs" />
+    <Compile Include="Pruebas Alejandro\Estimacion_Tiempo\MyPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Amplitud_Memoria\NumScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Amplitud_Memoria\Test_AM.cs" />
+    <Compile Include="Pruebas Alejandro\Amplitud_Memoria\Vista_Previa_AM.cs" />
+    <Compile Include="Pruebas Alejandro\Estimacion_Tiempo\Estimacion_Tiempo.cs" />
+    <Compile Include="Pruebas Alejandro\Estimacion_Tiempo\TimeEstimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Estimacion_Tiempo\TimeEstimation.designer.cs">
+      <DependentUpon>TimeEstimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Estimacion_Tiempo\Vista_Previa_ET.cs" />
+    <Compile Include="Pruebas Alejandro\Memoria_Figuras\Ensayo_Memoria_Figuras.cs" />
+    <Compile Include="Pruebas Alejandro\Memoria_Figuras\Memoria_Figuras.cs" />
+    <Compile Include="Pruebas Alejandro\Memoria_Figuras\MF_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Memoria_Figuras\MF_Form.Designer.cs">
+      <DependentUpon>MF_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Memoria_Figuras\Test_Ejemplo_MF.cs" />
+    <Compile Include="Pruebas Alejandro\Memoria_Figuras\Test_MF.cs" />
+    <Compile Include="Pruebas Alejandro\Memoria_Figuras\Vista_Previa_MF.cs" />
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\Ensayo_Pares_Visuales_Asociados.cs" />
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\Pares_Visuales_Asociados.cs" />
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\Pares_Visuales_Asociados_2.cs" />
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\PVA_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\PVA_Form.Designer.cs">
+      <DependentUpon>PVA_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\Test_Ejemplo_PVA.cs" />
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\Test_PVA.cs" />
+    <Compile Include="Pruebas Alejandro\Pares_Visuales_Asociados\Vista_Previa_PVA.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\Atencion_Sostenida_Compleja.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\Atencion_Sostenida_Simple.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\FormASCL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\FormASCL.designer.cs">
+      <DependentUpon>FormASCL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\FormASSL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\Vista_Previa_Letras.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\Atencion_Sostenida_Compleja.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\Atencion_Sostenida_Compleja_Letras.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\Atencion_Sostenida_Simple.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\Atencion_Sostenida_Simple_Letras.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASC.Designer.cs">
+      <DependentUpon>FormASC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASCL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASCL.Designer.cs">
+      <DependentUpon>FormASCL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASSL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASSL.Designer.cs">
+      <DependentUpon>FormASSL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\Vista_Previa_AS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\Vista_Previa_Letras.cs" />
+    <Compile Include="Pruebas Yovany\Recuerdo_Libre\Recuerdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Recuerdo_Libre\Recuerdo_Libre.cs" />
+    <Compile Include="Pruebas Yovany\Recuerdo_Libre\Vista_Previa_AP.cs" />
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\FormTR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\FormTR.designer.cs">
+      <DependentUpon>FormTR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\FormTRS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\FormTRS.designer.cs">
+      <DependentUpon>FormTRS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\TiempoReaccion.cs" />
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\TiempoReaccionSimple.cs" />
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\Vista_Previa_TR.cs" />
+    <Compile Include="Pruebas Yovany\Tiempo_Reaccion\Vista_Previa_TRS.cs" />
+    <Compile Include="Utils.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pruebas Alejandro\Amplitud_Memoria\NumScreen.resx">
+      <DependentUpon>NumScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Alejandro\Estimacion_Tiempo\TimeEstimation.resx">
+      <DependentUpon>TimeEstimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Alejandro\Memoria_Figuras\MF_Form.resx">
+      <DependentUpon>MF_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Alejandro\Pares_Visuales_Asociados\PVA_Form.resx">
+      <DependentUpon>PVA_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\FormASCL.resx">
+      <DependentUpon>FormASCL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Atencion_Sostenida\En_Colores\FormASSL.resx">
+      <DependentUpon>FormASSL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASC.resx">
+      <DependentUpon>FormASC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASCL.resx">
+      <DependentUpon>FormASCL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASS.resx">
+      <DependentUpon>FormASS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Atencion_Sostenida\Homogenea\FormASSL.resx">
+      <DependentUpon>FormASSL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Recuerdo_Libre\Recuerdo.resx">
+      <DependentUpon>Recuerdo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Tiempo_Reaccion\FormTR.resx">
+      <DependentUpon>FormTR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas Yovany\Tiempo_Reaccion\FormTRS.resx">
+      <DependentUpon>FormTRS.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj">
+      <Project>{D35B6302-814D-438F-809B-1661F3355FDA}</Project>
+      <Name>BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessTool\DataAccessTool.csproj">
+      <Project>{A00589F4-CDA7-4A0A-A18B-2382AFE600F1}</Project>
+      <Name>DataAccessTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImgSet\ImgSet\ImgSet.csproj">
+      <Project>{0D83F5F2-E62F-4E70-97DF-488A23DD0267}</Project>
+      <Name>ImgSet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

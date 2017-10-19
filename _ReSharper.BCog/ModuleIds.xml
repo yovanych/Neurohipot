@@ -1,0 +1,12 @@
+<Modules>
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="199D6CAD-2025-4515-90C5-FC25F69DC04A" ModuleId="HerrmDiag" />
+  <Module PersistentId="8D2B0610-67FD-467A-8FF4-B9468B2347CE" ModuleId="PDF_Report" />
+  <Module PersistentId="A00589F4-CDA7-4A0A-A18B-2382AFE600F1" ModuleId="DataAccessTool" />
+  <Module PersistentId="8A1043CD-5E39-4BD5-8B03-6434E7A91F88" ModuleId="GraphicReport" />
+  <Module PersistentId="D35B6302-814D-438F-809B-1661F3355FDA" ModuleId="BusinessObjects" />
+  <Module PersistentId="C5FC18CF-CE83-4627-930F-42A8F1E2D7AD" ModuleId="Gios Pdf.NET" />
+  <Module PersistentId="014BD2EE-4DFA-40FE-BF32-8D2A316DEB84" ModuleId="PsicoTests" />
+  <Module PersistentId="2DF35264-EF2D-46B9-B379-B5C17EE04829" ModuleId="ExcelReportTool" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>

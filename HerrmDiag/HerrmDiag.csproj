@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{199D6CAD-2025-4515-90C5-FC25F69DC04A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HerrmDiag</RootNamespace>
+    <AssemblyName>HerrmDiag</AssemblyName>
+    <ApplicationIcon>IMG\Tecla.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\HerrmDiag.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HerrmDiag, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <ExecutableExtension>.exe</ExecutableExtension>
+    </Reference>
+    <Reference Include="HuffmanLibrary">
+      <HintPath>C:\Users\Alejandro\Desktop\Huffman\bin\Debug\HuffmanLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activation\ActivationManager.cs" />
+    <Compile Include="Activation\ActivationSettings.cs" />
+    <Compile Include="Encryptor\EncryptionHelper.cs" />
+    <Compile Include="Encryptor\Encryptor.cs" />
+    <Compile Include="Formularios\Acerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Acerca.designer.cs">
+      <DependentUpon>Acerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicador.cs" />
+    <Compile Include="Formularios\CommonForms\FormExport2PDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormExport2PDF.Designer.cs">
+      <DependentUpon>FormExport2PDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormVisorDeReportePdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormVisorDeReportePdf.designer.cs">
+      <DependentUpon>FormVisorDeReportePdf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\Prepare2Begin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\Prepare2Begin.Designer.cs">
+      <DependentUpon>Prepare2Begin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\ActivationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\ActivationForm.Designer.cs">
+      <DependentUpon>ActivationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfTiempoReaccionCompleja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfTiempoReaccionCompleja.designer.cs">
+      <DependentUpon>FormConfTiempoReaccionCompleja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfTiempoReaccionSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfTiempoReaccionSimple.designer.cs">
+      <DependentUpon>FormConfTiempoReaccionSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\Autent_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\Autent_User.designer.cs">
+      <DependentUpon>Autent_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\BEN\Autent_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\BEN\Autent_User.designer.cs">
+      <DependentUpon>Autent_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\CambiarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\CambiarCategoria.Designer.cs">
+      <DependentUpon>CambiarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\CambiarPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\CambiarPass.designer.cs">
+      <DependentUpon>CambiarPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config.cs" />
+    <Compile Include="Formularios\CommonForms\Confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\Confirm.designer.cs">
+      <DependentUpon>Confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\EditLugar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\EditLugar.Designer.cs">
+      <DependentUpon>EditLugar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormconfAmplitudMemoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormconfAmplitudMemoria.Designer.cs">
+      <DependentUpon>FormconfAmplitudMemoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaComplejaLetras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaComplejaLetras.Designer.cs">
+      <DependentUpon>FormConfAtencionSostenidaComplejaLetras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\EditPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\EditPaciente.Designer.cs">
+      <DependentUpon>EditPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaSimple.Designer.cs">
+      <DependentUpon>FormConfAtencionSostenidaSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaCompleja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaCompleja.Designer.cs">
+      <DependentUpon>FormConfAtencionSostenidaCompleja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\EditResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\EditResults.designer.cs">
+      <DependentUpon>EditResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaSimpleLetras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfAtencionSostenidaSimpleLetras.Designer.cs">
+      <DependentUpon>FormConfAtencionSostenidaSimpleLetras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfMemoriaDeFiguras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfMemoriaDeFiguras.Designer.cs">
+      <DependentUpon>FormConfMemoriaDeFiguras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfParesVisualesAsociados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfParesVisualesAsociados.Designer.cs">
+      <DependentUpon>FormConfParesVisualesAsociados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfRecuerdoLibre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormConfRecuerdoLibre.Designer.cs">
+      <DependentUpon>FormConfRecuerdoLibre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormPacientes.designer.cs">
+      <DependentUpon>FormPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\FormUsuarios.Designer.cs">
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\GenCod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\GenCod.Designer.cs">
+      <DependentUpon>GenCod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\BEN\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\BEN\MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\MainFormTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TestAtencion\MainFormTA.Designer.cs">
+      <DependentUpon>MainFormTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\Reporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\Reporte.designer.cs">
+      <DependentUpon>Reporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\BEN\SplashVinci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\BEN\SplashVinci.designer.cs">
+      <DependentUpon>SplashVinci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\WinFormManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\AdminPacientesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AdminPacientesUC.Designer.cs">
+      <DependentUpon>AdminPacientesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AdminUsersUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AdminUsersUC.Designer.cs">
+      <DependentUpon>AdminUsersUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfAmplitudMemoriaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfAmplitudMemoriaUC.Designer.cs">
+      <DependentUpon>ConfAmplitudMemoriaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfASCImagenesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfASCImagenesUC.Designer.cs">
+      <DependentUpon>ConfASCImagenesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfASCLetrasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfASCLetrasUC.Designer.cs">
+      <DependentUpon>ConfASCLetrasUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfASSImagenesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfASSImagenesUC.Designer.cs">
+      <DependentUpon>ConfASSImagenesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfASSLetrasColoresUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfASSLetrasColoresUC.Designer.cs">
+      <DependentUpon>ConfASSLetrasColoresUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfASSLetrasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfASSLetrasUC.Designer.cs">
+      <DependentUpon>ConfASSLetrasUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfEstimacionTiempoUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfEstimacionTiempoUC.Designer.cs">
+      <DependentUpon>ConfEstimacionTiempoUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfMemoriaFigurasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfMemoriaFigurasUC.Designer.cs">
+      <DependentUpon>ConfMemoriaFigurasUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfParesVisualesAsociadosUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfParesVisualesAsociadosUC.Designer.cs">
+      <DependentUpon>ConfParesVisualesAsociadosUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfRecuerdoLibreUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfRecuerdoLibreUC.Designer.cs">
+      <DependentUpon>ConfRecuerdoLibreUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfTRComplejaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfTRComplejaUC.Designer.cs">
+      <DependentUpon>ConfTRComplejaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfTRSimpleUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfTRSimpleUC.Designer.cs">
+      <DependentUpon>ConfTRSimpleUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PdfReportViewerUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PdfReportViewerUC.Designer.cs">
+      <DependentUpon>PdfReportViewerUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ResultView.Designer.cs">
+      <DependentUpon>ResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TestInformationUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TestInformationUC.Designer.cs">
+      <DependentUpon>TestInformationUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Formularios\Acerca.resx">
+      <DependentUpon>Acerca.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormExport2PDF.resx">
+      <DependentUpon>FormExport2PDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormVisorDeReportePdf.resx">
+      <DependentUpon>FormVisorDeReportePdf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\Prepare2Begin.resx">
+      <DependentUpon>Prepare2Begin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TestAtencion\ActivationForm.resx">
+      <DependentUpon>ActivationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\AddUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfTiempoReaccionCompleja.resx">
+      <DependentUpon>FormConfTiempoReaccionCompleja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfTiempoReaccionSimple.resx">
+      <DependentUpon>FormConfTiempoReaccionSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TestAtencion\Autent_User.resx">
+      <DependentUpon>Autent_User.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\BEN\Autent_User.resx">
+      <DependentUpon>Autent_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\CambiarCategoria.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CambiarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\CambiarPass.resx">
+      <DependentUpon>CambiarPass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\Confirm.resx">
+      <DependentUpon>Confirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\EditLugar.resx">
+      <DependentUpon>EditLugar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormconfAmplitudMemoria.resx">
+      <DependentUpon>FormconfAmplitudMemoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfAtencionSostenidaComplejaLetras.resx">
+      <DependentUpon>FormConfAtencionSostenidaComplejaLetras.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\EditPaciente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfAtencionSostenidaSimple.resx">
+      <DependentUpon>FormConfAtencionSostenidaSimple.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfAtencionSostenidaCompleja.resx">
+      <DependentUpon>FormConfAtencionSostenidaCompleja.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\EditResults.resx">
+      <DependentUpon>EditResults.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfAtencionSostenidaSimpleLetras.resx">
+      <DependentUpon>FormConfAtencionSostenidaSimpleLetras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfMemoriaDeFiguras.resx">
+      <DependentUpon>FormConfMemoriaDeFiguras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfParesVisualesAsociados.resx">
+      <DependentUpon>FormConfParesVisualesAsociados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormConfRecuerdoLibre.resx">
+      <DependentUpon>FormConfRecuerdoLibre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormPacientes.resx">
+      <DependentUpon>FormPacientes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\FormUsuarios.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\GenCod.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GenCod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\BEN\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TestAtencion\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TestAtencion\MainFormTA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFormTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\Reporte.resx">
+      <DependentUpon>Reporte.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\BEN\SplashVinci.resx">
+      <DependentUpon>SplashVinci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CommonForms\Resp.resx">
+      <DependentUpon>Resp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\AdminPacientesUC.resx">
+      <DependentUpon>AdminPacientesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AdminUsersUC.resx">
+      <DependentUpon>AdminUsersUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfAmplitudMemoriaUC.resx">
+      <DependentUpon>ConfAmplitudMemoriaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfASCImagenesUC.resx">
+      <DependentUpon>ConfASCImagenesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfASCLetrasUC.resx">
+      <DependentUpon>ConfASCLetrasUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfASSImagenesUC.resx">
+      <DependentUpon>ConfASSImagenesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfASSLetrasColoresUC.resx">
+      <DependentUpon>ConfASSLetrasColoresUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfASSLetrasUC.resx">
+      <DependentUpon>ConfASSLetrasUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfEstimacionTiempoUC.resx">
+      <DependentUpon>ConfEstimacionTiempoUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfMemoriaFigurasUC.resx">
+      <DependentUpon>ConfMemoriaFigurasUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfParesVisualesAsociadosUC.resx">
+      <DependentUpon>ConfParesVisualesAsociadosUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfRecuerdoLibreUC.resx">
+      <DependentUpon>ConfRecuerdoLibreUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfTRComplejaUC.resx">
+      <DependentUpon>ConfTRComplejaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConfTRSimpleUC.resx">
+      <DependentUpon>ConfTRSimpleUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PdfReportViewerUC.resx">
+      <DependentUpon>PdfReportViewerUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ResultView.resx">
+      <DependentUpon>ResultView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TestInformationUC.resx">
+      <DependentUpon>TestInformationUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DataInfo.osl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ImgASC_FIG.ips">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ImgASC_IMG.ips">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ImgASS_FIG.ips">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ImgASS_IMG.ips">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ImgEj.ips">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ImgMF.ips">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ImgPVA.ips">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Params.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\Resp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CommonForms\Resp.designer.cs">
+      <DependentUpon>Resp.cs</DependentUpon>
+    </Compile>
+    <None Include="Txlsdb.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMG\Bubles.ico" />
+    <Content Include="IMG\pshero_0020.ico" />
+    <Content Include="IMG\Tecla.ico" />
+    <Content Include="Info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Log_.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ResultsDB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\TAS.jpg" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\solo_cerebro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj">
+      <Project>{D35B6302-814D-438F-809B-1661F3355FDA}</Project>
+      <Name>BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessTool\DataAccessTool.csproj">
+      <Project>{A00589F4-CDA7-4A0A-A18B-2382AFE600F1}</Project>
+      <Name>DataAccessTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExcelReportTool\ExcelReportTool.csproj">
+      <Project>{2DF35264-EF2D-46B9-B379-B5C17EE04829}</Project>
+      <Name>ExcelReportTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraphicReport\GraphicReport.csproj">
+      <Project>{8A1043CD-5E39-4BD5-8B03-6434E7A91F88}</Project>
+      <Name>GraphicReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImgSet\ImgSet\ImgSet.csproj">
+      <Project>{0D83F5F2-E62F-4E70-97DF-488A23DD0267}</Project>
+      <Name>ImgSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PDF_Report\PDF_Report.csproj">
+      <Project>{8D2B0610-67FD-467A-8FF4-B9468B2347CE}</Project>
+      <Name>PDF_Report</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pica\pica.csproj">
+      <Project>{0D981861-E1FA-4F7E-8DE9-914AC6746677}</Project>
+      <Name>pica</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PsicoTests\PsicoTests.csproj">
+      <Project>{014BD2EE-4DFA-40FE-BF32-8D2A316DEB84}</Project>
+      <Name>PsicoTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReadingXML\ReadingXML.csproj">
+      <Project>{6A5FCD01-AB72-4403-B93F-BC0E141BDCB4}</Project>
+      <Name>ReadingXML</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

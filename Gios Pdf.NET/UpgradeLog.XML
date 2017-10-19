@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Gios Pdf.NET">
+</Property><Property Name="Solution File" Value="D:\User_Profiles\Administrator\Desktop\SCG\PDF_\GiosPDFNET\Gios Pdf.NET library\Gios Pdf.NET\Gios Pdf.NET.sln">
+</Property><Property Name="Date" Value="Wednesday, October 29, 2008">
+</Property><Property Name="Time" Value="14:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Gios Pdf.NET" Source="Gios Pdf.NET.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Gios Pdf.NET" Source="Gios Pdf.NET.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Gios Pdf.NET.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Gios Pdf.NET.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Gios Pdf.NET" Source="Gios Pdf.NET.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

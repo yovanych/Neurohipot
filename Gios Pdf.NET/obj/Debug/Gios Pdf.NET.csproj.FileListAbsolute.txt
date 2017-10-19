@@ -1,0 +1,12 @@
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\bin\Debug\Gios Pdf.NET.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\bin\Debug\Gios Pdf.NET.pdb
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\bin\Debug\ICSharpCode.SharpZipLib.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\obj\Debug\ResolveAssemblyReference.cache
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\obj\Debug\Gios Pdf.NET.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\obj\Debug\Gios Pdf.NET.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\bin\Debug\Gios Pdf.NET.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\bin\Debug\Gios Pdf.NET.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\obj\Debug\ResolveAssemblyReference.cache
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\obj\Debug\Gios Pdf.NET.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\Gios Pdf.NET\obj\Debug\Gios Pdf.NET.pdb

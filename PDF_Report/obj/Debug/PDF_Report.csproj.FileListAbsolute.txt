@@ -1,0 +1,38 @@
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PDF_Report.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PDF_Report.pdb
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\BusinessObjects.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\DataAccessTool.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\Gios Pdf.NET.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\GraphicReport.exe
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PercentilesTool.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\ICSharpCode.SharpZipLib.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\BusinessObjects.pdb
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\DataAccessTool.pdb
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\Gios Pdf.NET.pdb
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PercentilesTool.pdb
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\GraphicReport.pdb
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\ResolveAssemblyReference.cache
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\PDF_Report.PDF_Resources.resources
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\GenerateResource.read.1.tlog
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\GenerateResource.write.1.tlog
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\PDF_Report.dll
+I:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\PDF_Report.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PDF_Report.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PDF_Report.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\BusinessObjects.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\DataAccessTool.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\Gios Pdf.NET.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\GraphicReport.exe
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PercentilesTool.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\BusinessObjects.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\DataAccessTool.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\Gios Pdf.NET.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\PercentilesTool.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\bin\Debug\GraphicReport.pdb
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\ResolveAssemblyReference.cache
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\PDF_Report.PDF_Resources.resources
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\GenerateResource.read.1.tlog
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\GenerateResource.write.1.tlog
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\PDF_Report.dll
+D:\Left_Works\Proyecto Miguel_Ruben\entregas yova\Ar_Proyect (Z)\PDF_Report\obj\Debug\PDF_Report.pdb

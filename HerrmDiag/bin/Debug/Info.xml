@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<INFO>
+<ASS>
+  <Descripcion>
+{\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa120\sl276\slmult1\qj\lang6154\f0\fs22 La tarea propuesta en la prueba Atenci\'f3n Sostenida 1 consiste en oprimir una tecla (barra espaciadora) ante la aparici\'f3n de un est\'edmulo previamente informado por el examinador (seleccionado en \ldblquote Configuraci\'f3n\rdblquote ). \par
+Los est\'edmulos seleccionados para esta variante de la prueba Atenci\'f3n Sostenida son figuras. Durante la ejecuci\'f3n de la prueba, el sujeto se encontrar\'e1 ante la presencia de distractores distribuidos al azar (todas las figuras, excepto la figura diana).\par
+\par
+La consigna a emplear es la siguiente:\par
+\pard\qj\par
+\pard\sl276\slmult1\qj  \ldblquote En la pantalla aparecer\'e1n una serie de figuras (im\'e1genes, dibujos, etc) diferentes. Cuando aparezca la figura de la casita (o cualquier otra seleccionada) debes presionar la tecla ESPACIO\rdblquote  (se se\'f1ala la barra espaciadora). F\'edjate bien, responde s\'f3lo cuando aparezca esa imagen y no otra\rdblquote .\par
+\pard\li360\sa120\sl276\slmult1\qj\par
+\pard\sa120\sl276\slmult1\qj Una vez aclarada la consigna, se procede a la demostraci\'f3n de la prueba enfatizando cu\'e1ndo y c\'f3mo debe ser ejecutada la respuesta. La configuraci\'f3n de la prueba contempla este per\'edodo de demostraci\'f3n que puede ser activado al oprimir el \'edcono correspondiente (\ldblquote ENSAYO\rdblquote ) ubicado en la parte inferior izquierda de la pantalla. Esto permite que el examinador compruebe si el sujeto examinado ha comprendido correctamente la tarea. \par
+\pard\lang1034\f1\fs20\par
+}
+  </Descripcion>
+  <Fundamentacion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\f0\fs20 La capacidad para mantener la atencion durante un per\'edodo prolongrado de tiempo ante est\'edmulos mon\'f3notos es una de las funciones principales de la atenci\'f3n. Ha sido identificado por Postner y Mirsky como vigilancia o atenci\'f3n sostenida respectivamente. Aparentemente tiene el l\'f3bulo parietal izquierdo como uno de sus centros reguladores fundamentales.\par
+\par
+El paradigma de esta Ejecusi\'f3n Continua es la prueba cl\'e1sica para diagnosticar trastornos en esta funci\'f3n.\fs16\par
+}
+  </Fundamentacion>
+  <Configuracion>
+{\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa120\sl276\slmult1\qj\lang6154\f0\fs22 La prueba ha sido dise\'f1ada por bloques para ofrecer la posibilidad de conocer el comportamiento de la atenci\'f3n sostenida en el curso de cada uno de ellos, ya que \'e9ste componente atencional se caracteriza por un deterioro a trav\'e9s del tiempo. La configuraci\'f3n utilizada para la prueba ha sido la siguiente:\par
+\pard\sa120\sl276\slmult1\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj\tx720 Cantidad de bloques a mostrar: 7\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj Cantidad de est\'edmulos por bloques: 100\par
+{\pntext\f2\'B7\tab}Cantidad de dianas: 10\par
+{\pntext\f2\'B7\tab}Tiempo de visualizaci\'f3n: 500 milisegundos.\par
+{\pntext\f2\'B7\tab}Tiempo de ocultamiento: 500 milisegundos.\par
+{\pntext\f2\'B7\tab}Color de fondo: Gris\par
+{\pntext\f2\'B7\tab}Tecla de reacci\'f3n: Barra espaciadora\par
+\pard\sa120\sl276\slmult1\qj\par
+El tiempo aproximado de duraci\'f3n esta prueba es de 15 minutos a partir de la activaci\'f3n del \'edcono designado para el inicio de la tarea. \par
+\pard\lang1034\f1\fs20\par
+}
+  </Configuracion>
+  <Resultados>
+{\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang6154\f0\fs22 Los resultados finales se informar\'e1n a trav\'e9s de las siguientes variables:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj\tx720 Aciertos: Se refiere a la cantidad de respuestas correctas emitidas por el sujeto durante toda la ejecuci\'f3n de la prueba. Para la configuraci\'f3n descrita el m\'e1ximo de respuestas correctas es 70.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj Omisiones: Constituyen las inhibiciones de la respuesta ante la presencia del est\'edmulo diana. Suelen tomarse como un indicador de inatenci\'f3n.\par
+{\pntext\f2\'B7\tab}Errores Cantidad de respuestas err\'f3neas por comisi\'f3n presentadas por el sujeto en cada bloque.\par
+{\pntext\f2\'B7\tab}Tiempo promedio de reacci\'f3n: Indica la media del tiempo que ha demorado el sujeto en responder a la aparici\'f3n de cada est\'edmulo diana. \par
+{\pntext\f2\'B7\tab}Desviaci\'f3n Est\'e1ndar: Se refiere a la desviaci\'f3n del tiempo de reacci\'f3n con respecto a la media. \par
+\pard\lang1034\f1\fs20\par
+}
+  </Resultados>
+</ASS>
+
+<ASC>
+  <Descripcion>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fprq2\fcharset2 Wingdings;}{\f2\fswiss\fprq2\fcharset0 Calibri;}{\f3\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang11274\fs22 La prueba de atenci\'f3n sostenida consiste en una versi\'f3n del paradigma de ejecuci\'f3n continua, pero en este caso, de manera condicionada o compleja. \par
+El sujeto debe oprimir la barra espaciadora (tecla de respuesta) ante la presencia de una combinaci\'f3n de est\'edmulos o secuencia de est\'edmulos diana: caballo \f1\'e0\f0 gallo.\par
+Pues entonces, el sujeto debe oprimir la tecla de respuesta, cada vez que aparezca en la pantalla la figura de un gallo, siempre y cuando, la figura que le precedi\'f3 haya sido la de un caballo.\par
+Los distractores son las restantes figuras de animales, incluso el caballo y el gallo cuando no aparecen en la secuencia de est\'edmulos diana: caballo \f1\'e0\f0 gallo.\par
+La consigna a emplear es la siguiente:\par
+\ldblquote En la pantalla aparecer\'e1n muchas figuras de animales diferentes. Cuando aparezca un caballo seguido de un gallo, debes presionar la barra espaciadora (se le se\'f1ala la misma). Solamente debes hacerlo cuando aparezca el caballo y detr\'e1s el gallo.\rdblquote\f2\par
+\lang10\f3\par
+}
+  </Descripcion>
+  <Fundamentacion>
+    
+  </Fundamentacion>
+  <Configuracion>
+{\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj\tx720\lang6154\f0\fs22 Cantidad de bloques a mostrar: 4\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj Cantidad de est\'edmulos por bloques: 100\par
+{\pntext\f2\'B7\tab}Cantidad de dianas: 10\par
+{\pntext\f2\'B7\tab}Tiempo de visualizaci\'f3n: 500 milisegundos.\par
+{\pntext\f2\'B7\tab}Tiempo de ocultamiento: 500 milisegundos.\par
+{\pntext\f2\'B7\tab}Color de fondo: Gris\par
+{\pntext\f2\'B7\tab}Tecla de reacci\'f3n: Barra espaciadora\par
+\pard\sa120\sl276\slmult1\qj\par
+El tiempo aproximado de duraci\'f3n esta prueba es de 7 minutos a partir de la activaci\'f3n del \'edcono designado para el inicio de la tarea. \par
+\pard\lang1034\f1\fs20\par
+} 
+  </Configuracion>
+  <Resultados>
+{\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj\tx720\lang6154\f0\fs22 Aciertos: Se refiere a la cantidad de respuestas correctas emitidas por el sujeto durante toda la ejecuci\'f3n de la prueba. Para la configuraci\'f3n descrita el m\'e1ximo de respuestas correctas es 70.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj Omisiones: Constituyen las inhibiciones de la respuesta ante la presencia del est\'edmulo diana. Suelen tomarse como un indicador de inatenci\'f3n.\par
+{\pntext\f2\'B7\tab}Errores: Cantidad de respuestas err\'f3neas por comisi\'f3n presentadas por el sujeto en cada bloque.\par
+{\pntext\f2\'B7\tab}Tiempo promedio de reacci\'f3n: Indica la media del tiempo que ha demorado el sujeto en responder a la aparici\'f3n de cada est\'edmulo diana. \par
+{\pntext\f2\'B7\tab}Desviaci\'f3n Est\'e1ndar: Se refiere a la desviaci\'f3n del tiempo de reacci\'f3n con respecto a la media. \par
+\pard\lang1034\f1\fs20\par
+}
+  </Resultados>
+</ASC>
+<ASCL>
+  <Descripcion>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fprq2\fcharset2 Wingdings;}{\f2\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang11274\fs22 La prueba de atenci\'f3n sostenida consiste en una versi\'f3n del paradigma de ejecuci\'f3n continua, pero en este caso, de manera condicionada o compleja. \par
+El sujeto debe oprimir la barra espaciadora (tecla de respuesta) ante la presencia de una combinaci\'f3n de est\'edmulos o secuencia de est\'edmulos diana: A\f1\'e0\f0 T\par
+Pues entonces, el sujeto debe  oprimir la tecla de respuesta, cada vez que aparezca en la pantalla la letra T, siempre y cuando, la letra que le precedi\'f3 haya sido la letra A. \par
+Los distractores son las restantes letras, incluso la letra A  y la letra T cuando no aparecen en la secuencia de est\'edmulos diana: A \f1\'e0\f0 T.\par
+La consigna a emplear es la siguiente:\par
+\ldblquote En la pantalla aparecer\'e1n muchas letras diferentes. Cuando aparezca una letra A seguida de una letra T, debes presionar la barra espaciadora (se le se\'f1ala la misma). Solamente debes hacerlo cuando aparezca letra T y detr\'e1s de la letra A\rdblquote\lang10\f2\par
+}
+  </Descripcion>
+  <Fundamentacion>
+
+  </Fundamentacion>
+  <Configuracion>
+{\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj\tx720\lang6154\f0\fs22 Cantidad de bloques a mostrar: 7\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj Cantidad de est\'edmulos por bloques: 100\par
+{\pntext\f2\'B7\tab}Cantidad de dianas: 10\par
+{\pntext\f2\'B7\tab}Tiempo de visualizaci\'f3n: 500 milisegundos.\par
+{\pntext\f2\'B7\tab}Tiempo de ocultamiento: 500 milisegundos.\par
+{\pntext\f2\'B7\tab}Color de fondo: Gris\par
+{\pntext\f2\'B7\tab}Tecla de reacci\'f3n: Barra espaciadora\par
+\pard\sa120\sl276\slmult1\qj\par
+El tiempo aproximado de duraci\'f3n esta prueba es de 15 minutos a partir de la activaci\'f3n del \'edcono designado para el inicio de la tarea. \par
+\pard\lang1034\f1\fs20\par
+}
+  </Configuracion>
+  <Resultados>
+{\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj\tx720\lang6154\f0\fs22 Aciertos: Se refiere a la cantidad de respuestas correctas emitidas por el sujeto durante toda la ejecuci\'f3n de la prueba. Para la configuraci\'f3n descrita el m\'e1ximo de respuestas correctas es 70.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl360\slmult1\qj Omisiones: Constituyen las inhibiciones de la respuesta ante la presencia del est\'edmulo diana. Suelen tomarse como un indicador de inatenci\'f3n.\par
+{\pntext\f2\'B7\tab}Errores: Cantidad de respuestas err\'f3neas por comisi\'f3n presentadas por el sujeto en cada bloque.\par
+{\pntext\f2\'B7\tab}Tiempo promedio de reacci\'f3n: Indica la media del tiempo que ha demorado el sujeto en responder a la aparici\'f3n de cada est\'edmulo diana. \par
+{\pntext\f2\'B7\tab}Desviaci\'f3n Est\'e1ndar: Se refiere a la desviaci\'f3n del tiempo de reacci\'f3n con respecto a la media. \par
+\pard\lang1034\f1\fs20\par
+}
+  </Resultados>
+</ASCL>
+  
+<TRS>
+  <Descripcion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+{\stylesheet{ Normal;}{\s1 heading 1;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang6154\f0\fs22 La tarea que se presenta en la prueba Tiempo de Reacci\'f3n Simple es muy sencilla. Se trata de una serie consecutiva de 30 c\'edrculos blancos que se presentan en la pantalla de forma intermitente.  El sujeto deber\'e1 oprimir la barra espaciadora, lo m\'e1s r\'e1pido posible, cada vez que visualice un c\'edrculo blanco. Para ello dispone de una cantidad limitada de milisegundos, a partir de la visualizaci\'f3n del est\'edmulo.\par
+El c\'edrculo se mantendr\'e1 visible durante un tiempo determinado y oculto durante un tiempo aleatorio para evitar la preparaci\'f3n del sujeto mediante una estimaci\'f3n del tiempo. \par
+La prueba constituye un paradigma evidente de est\'edmulo-respuesta en la que se registra el tiempo en que es llevada a cabo la respuesta una vez presentado el est\'edmulo. \par
+La consigna a emplear es la siguiente:\par
+\pard\keepn\s1\sb240\sa60\qj\lang1034\kerning32\ldblquote\lang3082 En la pantalla va a aparecer un c\'edrculo blanco de forma intermitente. Cada vez que salga debes oprimir la tecla \ldblquote ESPACIO\rdblquote  (se\'f1alar la barra espaciadora) lo m\'e1s r\'e1pido que puedas.\rdblquote\par
+\pard\lang1034\kerning0\f1\fs20\par
+}
+  </Descripcion>
+  <Fundamentacion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\f0\fs20 El tiempo que tarda un sujeto en responder voluntariamente con un movimiento dado ante unest\'edmulo determinado, es posiblemente la medida m\'e1s b\'e1sica pra el estudio de procesos sensoriales o cognitivos.\par
+\par
+Este tiempo depende de diversos factores copmo son: la exitaci\'f3n de los receptores perif\'e9ricos, transmisi\'f3n a los centros, y de ellos a las vias eferentes. Pero tambien de procesos relacionados con las diversas modalidades de la atenci\'f3n. Esta evaluacion subyace en todas las mediciones psicofisiol\'f3gicas en las que la velocidad de respuesta ante est\'edmulos es un componente de la calidad de la respuesta. \fs16\par
+}
+  </Fundamentacion>
+  <Configuracion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl360\slmult1\qj\lang6154\f0\fs22 Cantidad m\'e1xima de est\'edmulos: 30\par
+{\pntext\f2\'B7\tab}Tiempo de visualizaci\'f3n: 500 milisegundos\par
+{\pntext\f2\'B7\tab}Tiempo de Reacci\'f3n: 200 milisegundos\par
+{\pntext\f2\'B7\tab}Color del est\'edmulo: Blanco\par
+{\pntext\f2\'B7\tab}Tecla de reacci\'f3n: Barra espaciadora\par
+\pard\lang1034\f1\fs20\par
+}
+  </Configuracion>
+  <Resultados>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl360\slmult1\qj\lang6154\f0\fs22 Los resultados finales se mostrar\'e1n  trav\'e9s de las siguientes variables:\par
+{\pntext\f2\'B7\tab}Reacciones en rango: Cantidad de respuestas que ejecuta el sujeto ante la diana en el rango de tiempo que se ha designado como correcto.\par
+{\pntext\f2\'B7\tab}Tiempo promedio de reacciones en rango.\par
+{\pntext\f2\'B7\tab}Cantidad de reacciones fuera de rango: Cantidad de reacciones que ejecuta el sujeto fuera del tiempo designado como correcto.\par
+{\pntext\f2\'B7\tab}Tiempo promedio de reacciones fuera de rango\par
+{\pntext\f2\'B7\tab}Reacciones no esperadas: Cantidad de respuestas que efect\'faa el sujeto cuando no ha sido presentada la diana.\par
+{\pntext\f2\'B7\tab}Omisiones: Cantidad de respuestas que inhibe el sujeto ante la presencia del est\'edmulo diana.\par
+\pard\lang1034\f1\fs20\par
+}
+  </Resultados>
+</TRS>
+<TRC>
+  <Descripcion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang6154\f0\fs22 La prueba consiste en una serie de 30 c\'edrculos amarillos y azules (el color puede seleccionarse manualmente en \ldblquote CONFIGURACI\'d3N\rdblquote ) presentados en la pantalla variando, de forma aleatoria, el color e intervalo de tiempo de presentaci\'f3n entre un est\'edmulo y otro.  \par
+La tarea del sujeto consiste en responder, lo m\'e1s r\'e1pido posible, oprimiendo una tecla previamente especificada por el examinador para un tipo de est\'edmulo (Ejemplo: c\'edrculo amarillo- tecla \ldblquote ESPACIO\rdblquote ) y otra para el otro est\'edmulo (c\'edrculo azul-tecla \ldblquote ENTER\rdblquote ). Para ello dispone de una cantidad limitada de milisegundos a partir de la visualizaci\'f3n del c\'edrculo.\par
+\pard\sa120\sl276\slmult1\qj La consigna a emplear es la siguiente:\par
+\i  \i0\ldblquote En la pantalla aparecer\'e1n c\'edrculos amarillos y azules de forma intermitente, uno a continuaci\'f3n del otro. Cuando salga el c\'edrculo amarillo debes oprimir la tecla \ldblquote ESPACIO\rdblquote  y cuando salga el c\'edrculo amarillo debes oprimir la tecla \ldblquote ENTER\rdblquote . Debes  responder, en todos los casos, lo m\'e1s r\'e1pido que puedas\rdblquote .\par
+\pard\lang1034\f1\fs20\par
+}
+  </Descripcion>
+  <Fundamentacion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\f0\fs20 El tiempo que tarda un sujeto en responder voluntariamente con un movimiento dado ante unest\'edmulo determinado, es posiblemente la medida m\'e1s b\'e1sica pra el estudio de procesos sensoriales o cognitivos.\par
+\par
+Este tiempo depende de diversos factores copmo son: la exitaci\'f3n de los receptores perif\'e9ricos, transmisi\'f3n a los centros, y de ellos a las vias eferentes. Pero tambien de procesos relacionados con las diversas modalidades de la atenci\'f3n. Esta evaluacion subyace en todas las mediciones psicofisiol\'f3gicas en las que la velocidad de respuesta ante est\'edmulos es un componente de la calidad de la respuesta.\fs16\par
+}
+  </Fundamentacion>
+  <Configuracion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl360\slmult1\qj\lang6154\f0\fs22 Cantidad m\'e1xima de est\'edmulos: 30\par
+{\pntext\f2\'B7\tab}Tiempo de visualizaci\'f3n: 500 milisegundos\par
+{\pntext\f2\'B7\tab}Tiempo de Reacci\'f3n: 200 milisegundos\par
+{\pntext\f2\'B7\tab}Color del est\'edmulo 1: Amarillo\par
+{\pntext\f2\'B7\tab}Tecla de reacci\'f3n 1: ESPACIO\par
+{\pntext\f2\'B7\tab}Color del est\'edmulo 2: Azul\par
+{\pntext\f2\'B7\tab}Tecla de reacci\'f3n 2: ENTER\par
+\pard\lang1034\f1\fs20\par
+}
+  </Configuracion>
+  <Resultados>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl360\slmult1\qj\lang6154\f0\fs22 Los resultados finales se mostrar\'e1n  trav\'e9s de las siguientes variables:\par
+{\pntext\f2\'B7\tab}Reacciones en rango: Cantidad de respuestas que ejecuta el sujeto ante la diana en el rango de tiempo que se ha designado como correcto.\par
+{\pntext\f2\'B7\tab}Tiempo promedio de reacciones en rango.\par
+{\pntext\f2\'B7\tab}Cantidad de reacciones fuera de rango: Cantidad de reacciones que ejecuta el sujeto fuera del tiempo designado como correcto.\par
+{\pntext\f2\'B7\tab}Tiempo promedio de reacciones fuera de rango\par
+{\pntext\f2\'B7\tab}Reacciones no esperadas: Cantidad de respuestas que efect\'faa el sujeto cuando no ha sido presentada la diana.\par
+{\pntext\f2\'B7\tab}Omisiones: Cantidad de respuestas que inhibe el sujeto ante la presencia del est\'edmulo diana.\par
+\pard\lang1034\f1\fs20\par
+} 
+  </Resultados>
+</TRC>
+<AM>
+  <Descripcion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red255\green102\blue0;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\li360\sa200\sl276\slmult1\qj\lang6154\f0\fs22 La prueba Amplitud de Memoria consiste en una tarea de memoria visual a corto plazo que requiere del sujeto repetir series de n\'fameros cuya longitud se va incrementando en el transcurso de la prueba.  \par
+\pard\sa200\sl276\slmult1\qj       La prueba est\'e1 dividida en dos partes.\par
+\pard\li360\sa200\sl276\slmult1\qj\ul Primera parte:\ulnone  Para comenzar la prueba se deber\'e1 oprimir la tecla \ldblquote ENTER\rdblquote .  A continuaci\'f3n, se visualizar\'e1n series de n\'fameros cuyo rango var\'eda entre los 2 y 9 d\'edgitos. Una vez finalizada esta presentaci\'f3n, el sujeto deber\'e1 escribir los n\'fameros que recuerde respetando la secuencia de aparici\'f3n de cada serie.\par
+\pard\li284\sa200\sl276\slmult1\qj\ul Segunda parte:\ulnone  En esta parte de la prueba el sujeto deber\'e1 invertir el orden de los d\'edgitos en el momento del recuerdo, comenzando por el \'faltimo y terminado por el primero.  Es decir, deber\'e1 escribir la serie de n\'fameros en orden inverso.\cf1\par
+\cf0 Si el paciente se equivoca en dos ocasiones durante la primera parte de la prueba, la ejecuci\'f3n deber\'e1 interrumpirse de inmediato para pasar a la segunda parte. Si el paciente comete dos errores en la segunda parte, la prueba se da por concluida. \par
+Esta prueba no requiere entrenamiento previo.\par
+\pard\sa120      \lang3082 Las consignas a emplear son las siguientes: \par
+\i\fs24        \lang6154\f1\fs22\par
+\pard\li284\sa200\sl276\slmult1\qj\f0 Consigna Primera Parte:\lang3082\par
+\lang6154\i0\ldblquote En la pantalla se presentar\'e1n una serie de d\'edgitos que deber\'e1s recordar. Tu tarea consistir\'e1 en anotar, cuando yo te avise (luego de ser vistos los n\'fameros), los d\'edgitos en el mismo orden en que fueron apareciendo. Este procedimiento ser\'e1 repetido en dos ocasiones, en las que deber\'e1s \cf2 responder de la misma forma\rdblquote . \cf0\lang3082\par
+\lang6154\i Consigna Segunda Parte:\lang3082\par
+\lang6154\i0\ldblquote En la pantalla se presentar\'e1n una serie de d\'edgitos que deber\'e1s memorizar. Esta vez, tu tarea consistir\'e1 en anotar, una vez visualizados, los d\'edgitos que recuerdes pero en el orden inverso al que fueron presentados. \cf2 Es decir, escribir\'e1s el \'faltimo d\'edgito de la serie, despu\'e9s el pen\'faltimo y as\'ed sucesivamente hasta llegar al primero.\cf0  El mismo procedimiento ser\'e1 repetido en dos ocasiones m\'e1s y t\'fa deber\'e1s responder de la misma forma\rdblquote . \par
+\pard\lang1034\f2\fs20\par
+}
+  </Descripcion>
+  <Fundamentacion>
+    
+  </Fundamentacion>
+  <Configuracion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl360\slmult1\qj\lang6154\b\f0\fs22 Tiempo exposici\'f3n del d\'edgito\b0 : 700 milisegundos\line\b Tiempo de intervalo\b0 : 300 milisegundos\line\b Tiempo de reacci\'f3n\b0 : 5000 milisegundos\par
+\pard\lang1034\f1\fs20\par
+}
+  </Configuracion>
+  <Resultados>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\li360\sa200\sl276\slmult1\qj\lang6154\f0\fs22 Los resultados finales se informar\'e1n a trav\'e9s de las siguientes variables:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl360\slmult1\qj Cantidad m\'e1xima de d\'edgitos recordados hacia adelante.\par
+{\pntext\f2\'B7\tab}Puntos obtenidos hacia adelante.\par
+{\pntext\f2\'B7\tab}Cantidad m\'e1xima de d\'edgitos recordados hacia atr\'e1s.\par
+{\pntext\f2\'B7\tab}Puntos obtenidos hacia atr\'e1s.\par
+\pard\li360\sa200\sl276\slmult1\qj\ul Nota:\ulnone  Los puntos obtenidos ser\'e1n registrados de la misma manera, tanto para la primera parte de la prueba (hacia delante) como para la segunda parte (hacia atr\'e1s). Se otorgar\'e1 1 punto por cada dos n\'fameros recordados correctamente.\par
+\pard\lang1034\f1\fs20\par
+}
+  </Resultados>
+</AM>
+<RL>
+  <Descripcion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\li360\sa200\sl276\slmult1\qj\lang6154\f0\fs22 La prueba Aprendizaje de palabras constituye una tarea visual de aprendizaje verbal, en la que el sujeto debe recordar una lista de palabras comunes pertenecientes a diferentes categor\'edas sem\'e1nticas.\par
+\pard\sa200\sl276\slmult1\qj       La prueba consta de 3 partes:\par
+\pard\li360\sa200\sl276\slmult1\qj\ul Primera parte:\ulnone  En la pantalla ir\'e1n apareciendo palabras de forma sucesiva hasta completar una lista de 15. Seguidamente, se abrir\'e1 una ventana en la que el sujeto u operador deber\'e1 escribir todas las palabras que recuerde de la lista anteriormente presentada. \par
+\ul Segunda parte\ulnone : Para dar comienzo a esta parte de la prueba deber\'e1 oprimirse la tecla \ldblquote ENTER\rdblquote . De inmediato, se mostrar\'e1 en la pantalla, durante 90 segundos, la lista de las 15 palabras presentadas en la primera parte. El sujeto deber\'e1 visualizarlas y una vez concluido el tiempo de presentaci\'f3n se abrir\'e1 una ventana en la que el sujeto u operador escribir\'e1 las que recuerde.\par
+\ul Tercera parte\ulnone : Se mostrar\'e1 en la pantalla, de forma sucesiva, una lista de 30 palabras (las 15 presentadas en las dos primeras partes de la prueba y 15 nuevas). Esta vez, la tarea consistir\'e1 en oprimir la tecla \ldblquote ENTER\rdblquote  ante la aparici\'f3n de una nueva palabra y \ldblquote la barra espaciadora\rdblquote  ante una palabra correspondiente a la lista mostrada con anterioridad. \par
+\ul\i Nota:\ulnone\i0  Si se desea cambiar la configuraci\'f3n de las teclas a oprimir en la tercera parte de la prueba, deber\'e1 dirigirse a la opci\'f3n \ldblquote Configuraci\'f3n\rdblquote  y seleccionar las teclas que desee para cada operaci\'f3n.\par
+\pard\sa200\sl276\slmult1\qj        La consigna a emplear es la siguiente:\par
+\pard\li426\sa200\sl276\slmult1\qj\ldblquote En la pantalla ir\'e1n apareciendo una serie de palabras que deber\'e1s tratar de recordar para, posteriormente, escribirlas (o mencionarlas). \par
+Una vez  concluida esta tarea, se mostrar\'e1n de nuevo \'e9stas 15 palabras durante 90 segundos. Despu\'e9s de haber trascurrido este tiempo, escribir\'e1s o mencionar\'e1s las que recuerdes. \par
+\pard Finalmente, se presentar\'e1 una lista de 30 palabras, de ellas 15 son nuevas y 15 son las que ya han sido mostradas anteriormente. Esta vez, tu tarea consistir\'e1 en oprimir la tecla \ldblquote ENTER\rdblquote  cada vez que identifiques una palabra nueva, que no coincida con las de la lista anterior, y oprimir la tecla \ldblquote ESPACIO\rdblquote  cuando aparezca alguna palabra conocida, que s\'ed coincida con las que ya has visto\rdblquote . \lang1034\f1\fs20\par
+}
+  </Descripcion>
+  <Fundamentacion>
+    
+  </Fundamentacion>
+  <Configuracion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\li360\sa200\sl276\slmult1\qj\lang6154\ul\f0\fs22 1ra parte\ulnone :\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl360\slmult1\qj Tiempo de visualizaci\'f3n de palabras: 1500 milisegundos\par
+{\pntext\f2\'B7\tab}Tiempo de ocultamiento: 1000 milisegundos\par
+\pard\li360\sa200\sl276\slmult1\qj\ul 2da parte:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\qj\ulnone Tiempo de visualizaci\'f3n de las 15 palabras: 90000 milisegundos\par
+\pard\li360\sa200\sl276\slmult1\qj\ul 3ra parte:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl360\slmult1\qj\ulnone Tiempo de visualizaci\'f3n de las palabras: 1500 milisegundos\par
+{\pntext\f2\'B7\tab}Tiempo de ocultamiento: 1000 milisegundos\par
+{\pntext\f2\'B7\tab}Teclas: \par
+\pard\li1134\sa200\sl276\slmult1\qj Si: ENTER\par
+No: ESPACIO\par
+\pard\lang1034\f1\fs20\par
+}
+  </Configuracion>
+  <Resultados>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\li360\sa200\sl276\slmult1\qj\lang6154\f0\fs22 Los resultados finales se informar\'e1n a trav\'e9s de las siguientes variables:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl360\slmult1\qj Cantidad de palabras recordadas en la primera etapa\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl360\slmult1\qj\tx5805 Cantidad de palabras recordadas en la segunda etapa\tab\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl360\slmult1\qj Cantidad de errores\par
+{\pntext\f2\'B7\tab}Cantidad de aciertos\par
+{\pntext\f2\'B7\tab}Cantidad de omisiones\par
+\pard\lang1034\f1\fs20\par
+}
+  </Resultados>
+</RL>
+<PVA>
+  <Descripcion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang6154\f0\fs22 La prueba Pares Visuales Asociados constituye una tarea de memoria visual de figuras abstractas, que carecen de significado. \par
+La prueba est\'e1 dividida en 3 partes.\par
+En la primera parte aparecer\'e1n en la pantalla, de forma sucesiva,  figuras asociadas a un color. La tarea del sujeto consistir\'e1 en recordar \'e9sta asociaci\'f3n y, posteriormente, seleccionar el color al cual se ha asociado la figura que se muestra cada vez en la pantalla. Esta misma operaci\'f3n deber\'e1 realizarse dos veces m\'e1s. \par
+La segunda y tercera parte de la prueba consiste en realizar la misma tarea, lo que var\'eda en ambos casos son las figuras.  \par
+La prueba posee un entrenamiento previo a la ejecuci\'f3n. Para realizarlo deber\'e1 oprimirse el \'edcono de \ldblquote ENSAYO\rdblquote . Cuando el examinador se haya cerciorado de que el sujeto ha comprendido correctamente la prueba, se iniciar\'e1 la ejecuci\'f3n oprimiendo la tecla \ldblquote EJECUTAR\rdblquote .\par
+Una vez mostrada la figura, el sujeto s\'f3lo tendr\'e1 una oportunidad de respuesta para seleccionar el color al que se asocia la figura presentada. \par
+La consigna a emplear es la siguiente:\par
+\ldblquote En la pantalla aparecer\'e1 una figura sin sentido en el lado izquierdo y a su derecha un color. Tu tarea consistir\'e1 en recordar esta asociaci\'f3n (o pareja). Este mismo procedimiento se repetir\'e1 varias veces m\'e1s y t\'fa tratar\'e1s siempre de identificar, en cada caso, a qu\'e9 color est\'e1 asociada cada una de las figuras que se presenten en la pantalla\rdblquote .\par
+\pard\lang1034\f1\fs20\par
+} 
+  </Descripcion>
+  <Fundamentacion>
+    
+  </Fundamentacion>
+  <Configuracion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl360\slmult1\qj\lang6154\f0\fs22 Tiempo exposici\'f3n del par: 6000 milisegundos\par
+{\pntext\f2\'B7\tab}Tiempo exposici\'f3n de la muestra: 6000 milisegundos\par
+\pard\lang1034\f1\fs20\par
+}
+  </Configuracion>
+  <Resultados>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang6154\f0\fs22 Los resultados finales se informar\'e1n a trav\'e9s de la siguiente variable:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj Aciertos: cantidad de asociaciones correctas que el sujeto logre realizar.\par
+\pard\lang1034\f1\fs20\par
+} 
+  </Resultados>
+</PVA>
+<PVA2>
+  <Descripcion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang6154\f0\fs22 La prueba Pares Visuales Asociados 2 complementa la prueba Pares Visuales Asociados y debe realizarse una vez transcurridos 30 minutos despu\'e9s de la ejecuci\'f3n de \'e9sta \'faltima. \par
+En este caso, ser\'e1n presentadas sucesivamente, en la parte izquierda de la pantalla, las seis figuras mostradas en la prueba Pares Visuales Asociados y a su derecha los seis colores. La tarea del sujeto consistir\'e1, nuevamente, en identificar el color al cual se asocia cada una de las figuras.\par
+La consigna a emplear es la siguiente:\par
+\pard\sa200\sl276\slmult1\qj\tx6300\ldblquote En la parte izquierda de la pantalla ir\'e1n apareciendo cada una de las figuras mostradas en la prueba anterior y a la derecha se encontrar\'e1n los seis colores diferentes. Tu tarea consistir\'e1 en identificar, cada vez que aparezca una figura a qu\'e9 color est\'e1 asociada la misma (cu\'e1l es la pareja).\rdblquote  \par
+\pard\sa200\sl276\slmult1\qj Esta prueba no requiere entrenamiento previo.\par
+\pard\lang1034\f1\fs20\par
+} 
+  </Descripcion>
+  <Fundamentacion>
+    
+  </Fundamentacion>
+  <Configuracion>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl360\slmult1\qj\lang6154\f0\fs22 Tiempo exposici\'f3n del par: 6000 milisegundos\par
+{\pntext\f2\'B7\tab}Tiempo exposici\'f3n de la muestra: 6000 milisegundos\par
+\pard\lang1034\f1\fs20\par
+} 
+  </Configuracion>
+  <Resultados>
+    {\rtf1\ansi\ansicpg1252\deff0\deflang1034{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang6154\f0\fs22 Los resultados finales se informar\'e1n a trav\'e9s de la siguiente variable:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj Aciertos: cantidad de asociaciones correctas que el sujeto logre realizar.\par
+\pard\lang1034\f1\fs20\par
+}
+  </Resultados>
+</PVA2>
+<HELP>
+<Intro>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang11274\b\f0\fs22 Ayuda TAS\par
+\b0 Bienvenido al archivo de ayuda del TAS,  si encuentra esta  informaci\'f3n insuficiente, por favor consulte el manual completo del programa.\par
+Si no logra solucionar su problema  por estas v\'edas, env\'ede un correo electr\'f3nico a tas@fnc.org.ar y se le contestar\'e1 a la brevedad.\par
+Las funciones principales del TAS se explican brevemente a continuaci\'f3n.\lang10\f1\par
+}
+</Intro>
+<Admin>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang11274\b\f0\fs22 Administraci\'f3n\par
+}
+</Admin>
+<AdminUsuarios>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang11274\b\f0\fs22 Administraci\'f3n de Usuarios y contrase\'f1as.\lang3082\par
+\b0 Para administrar los usuarios vaya a la pesta\'f1a "usuarios" y selecci\'f3ne la opci\'f3n\lang11274  "Herramienta de administraci\'f3n de usuarios". Si en cambio desea modificar la contrase\'f1a del  usuario actualmente activo, elija en la misma pesta\'f1a la opci\'f3n "cambio de contrase\'f1a".\par
+Al abrir la herramienta de administraci\'f3n de usuarios se abrir\'e1 una ventana nueva. En ella usted podr\'e1 agregar un usuario propio y eliminar aquellos usuarios que ya no desee utilizar. Si, por ejemplo, ya no desea que  "sa" sea un  nombre de usuario utilizable en su equipo puede hacer "clic" en el mismo y luego eliminarlo.  Tambi\'e9n puede proceder a editar los datos del usuario en este apartado.\b\par
+}
+</AdminUsuarios>
+<AdminSujetos>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang11274\b\f0\fs22 Administraci\'f3n  de sujetos. \par
+\b0 Para poder administrar el test a un ni\'f1o, primero debe registrarlo. Para ello puede ir a la pesta\'f1a "sujetos" donde tendr\'e1 2  (dos) opciones "administraci\'f3n de sujetos"  y  "exportar a Excel" .  \par
+\pard\sa200\sl276\slmult1\qj La herramienta de administraci\'f3n de sujetos permite agregar los datos de un paciente nuevo, ver los resultados de los pacientes evaluados con anterioridad, editar los datos de los mismos o eliminar registros. \par
+ Al intentar crear un nuevo usuario, aparecer\'e1 la ventana  en la que deber\'e1 completar  los datos del paciente. Es obligatorio asignar al sujeto un c\'f3digo espec\'edfico, el cual puede  elegirse de forma manual o ser generado de forma autom\'e1tica presionando el bot\'f3n "generar" . Aunque esto \'faltimo puede resultar inc\'f3modo inicialmente,  ya que el c\'f3digo generado autom\'e1ticamente es dif\'edcil de recordar, suele resultar conveniente este procedimiento  en el largo plazo, cuando el n\'famero de pacientes crece en cantidad.  El c\'f3digo es el dato por el que ubicar\'e1 al paciente en el momento de realizar la evaluaci\'f3n.\par
+\pard\sa200\sl276\slmult1 La opci\'f3n para exportar a Excel no debe utilizarse con frecuencia pero es de gran utilidad. Permite extraer en una \'fanica planilla de c\'e1lculo los resultados  cuantitativos de \i todos\i0  los sujetos evaluados. Esta medida puede ser recomendable como forma de respaldo o para utilizar los datos para realizar estudios estad\'edsticos. \par
+\pard\sa200\sl276\slmult1\qj Es importante destacar que \'e9sta funci\'f3n puede demorar, seg\'fan la cantidad de sujetos y la velocidad del procesador de la computadora un tiempo prolongado de pocos minutos o hasta una hora (va pasando uno a uno de la base de datos a la planilla de Excel los resultados), por lo que una vez iniciado el proceso de exportaci\'f3n, no deber\'e1 cerrar el programa a pesar de que el mismo deje aparentemente de responder. Cuando el proceso termina el programa se lo informa. \b\par
+}
+</AdminSujetos>
+<AdminTAS>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qj\lang11274\b\f0\fs22 Administraci\'f3n del TAS\par
+\b0 Como se explic\'f3 en el paso anterior, para iniciar la toma del Test de Atenci\'f3n Sostenida a un ni\'f1o, primero debe  ingresarlo como sujeto en la herramienta de administraci\'f3n de sujetos.  Una vez realizado esto, podr\'e1 buscar al sujeto en la pantalla inicial, por su c\'f3digo en el men\'fa que aparece en el lado izquierdo de la pantalla, debajo de \ldblquote Sujeto seleccionado\rdblquote . Los sujetos se listan all\'ed por orden de inclusi\'f3n, as\'ed es que el \'faltimo que ingres\'f3 estar\'e1 al final de la lista. \par
+Una vez seleccionado el usuario, el test apropiado a la edad cronol\'f3gica se seleccionar\'e1 de forma autom\'e1tica.  En ni\'f1os de hasta 7 a\'f1os se utilizara el paradigma 1, en que los est\'edmulos son dibujos de animales y la duraci\'f3n es de aproximadamente  7 minutos, y en ni\'f1os de7 a 12 a\'f1os, el paradigma 2, consistente en el que los est\'edmulos son letras y la duraci\'f3n se extiende a 12 minutos.\par
+\pard\sa200\sl276\slmult1 Para iniciar la prueba deber\'e1 presionarse el bot\'f3n "ejecutar", mientras que para iniciar el ensayo previo a la administraci\'f3n deber\'e1 pulsarse el bot\'f3n "ensayo". \par
+La duraci\'f3n del  modo de ensayo no est\'e1 limitada y cuando se desee finalizarla deber\'e1 oprimirse el bot\'f3n "esc" o "escape" del teclado, para volver a la pantalla anterior.  Es aconsejable que el sujeto practique durante 60 segundos, si es necesario con la asistencia del administrador quien podr\'e1 se\'f1alare aciertos, comisiones y omisiones. Dado que el programa en funci\'f3n \ldblquote ensayo\rdblquote  emite una alerta escrita, se le debe advertir al sujeto que durante la ejecuci\'f3n de la prueba, esos recordatorios no aparecer\'e1n.  En ni\'f1os peque\'f1os, que parezcan no comprender la instrucci\'f3n, el administrador puede modelarle por 60 segundos el comportamiento y luego dejar al ni\'f1o otros 60 segundos ensayando.\lang10\f1\par
+}
+</AdminTAS>
+<EmisionReporte>
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang11274\b\f0\fs22 Emisi\'f3n del reporte.\par
+\b0 Una vez finalizada la prueba, para acceder a los resultados el usuario deber\'e1 dirigirse a la herramienta de administraci\'f3n de sujetos, buscar el paciente sobre el que quiere obtener los  resultados y  oprimir el bot\'f3n "reporte", lo que abrir\'e1 un cuadro semejante  al que se observa en la imagen 8. En \'e9l se puede consultar el reporte del TAS, as\'ed como tambi\'e9n exportarlo a un fichero PDF o imprimirlo. \par
+Para poder leer un archivo PDF, deber\'e1 tener en su m\'e1quina instalado un programa lector de archivos PDF que se pueden encontrar sin costo en internet.\lang10\f1\par
+}
+</EmisionReporte>
+</HELP>
+</INFO>

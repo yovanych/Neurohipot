@@ -1,0 +1,72 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="0" />
+      <Item value="protected" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:InformacionGeneral.cs" caret="1068" fromTop="15" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:TNotaciones.cs" caret="1999" fromTop="17" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/f:ExportData.cs" caret="0" fromTop="0" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:CommonForms/f:FormExport2PDF.cs" caret="0" fromTop="0" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:UserControls/f:PdfReportViewerUC.cs" caret="2574" fromTop="0" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/f:PDF_Reporte.cs" caret="9533" fromTop="17" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:Puntuaciones.cs" caret="822" fromTop="22" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Activation/f:ActivationManager.cs" caret="3842" fromTop="23" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:CommonForms/f:EditPaciente.cs" caret="5862" fromTop="12" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:TestAtencion/f:MainFormTA.cs" caret="71" fromTop="2" />
+      <File id="A00589F4-CDA7-4A0A-A18B-2382AFE600F1/d:DAL/d:Join/f:ASReport.cs" caret="4175" fromTop="15" />
+      <File id="A00589F4-CDA7-4A0A-A18B-2382AFE600F1/d:DAL/d:Abstract/f:View.cs" caret="442" fromTop="8" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/f:XLS_Report.cs" caret="0" fromTop="0" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/d:Atencion_Sostenida/f:XLS_ASSSection.cs" caret="620" fromTop="10" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/d:Abstract/f:XLSAS_Section.cs" caret="884" fromTop="26" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/d:Abstract/f:XLS_Section.cs" caret="1258" fromTop="11" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/f:XLS_Row.cs" caret="2308" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:Puntuaciones.cs" caret="388" fromTop="20" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:Puntuaciones.cs" caret="119" fromTop="3" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:InformacionGeneral.cs" caret="1778" fromTop="24" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:InformacionGeneral.cs" caret="1483" fromTop="23" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:TNotaciones.cs" caret="1287" fromTop="22" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:InformacionGeneral.cs" caret="484" fromTop="8" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:InformacionGeneral.cs" caret="1038" fromTop="18" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:Puntuaciones.cs" caret="388" fromTop="13" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:Puntuaciones.cs" caret="822" fromTop="22" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/d:ExportData/f:TNotaciones.cs" caret="1999" fromTop="17" />
+      <File id="8D2B0610-67FD-467A-8FF4-B9468B2347CE/f:PDF_Reporte.cs" caret="9533" fromTop="17" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:UserControls/f:PdfReportViewerUC.cs" caret="2410" fromTop="18" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Activation/f:ActivationManager.cs" caret="5258" fromTop="23" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:TestAtencion/f:MainFormTA.cs" caret="32382" fromTop="16" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:CommonForms/f:EditPaciente.cs" caret="5890" fromTop="13" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:CommonForms/f:EditPaciente.cs" caret="6336" fromTop="21" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:TestAtencion/f:MainFormTA.cs" caret="31822" fromTop="14" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:TestAtencion/f:MainFormTA.cs" caret="32367" fromTop="22" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:TestAtencion/f:MainFormTA.cs" caret="16890" fromTop="3" />
+      <File id="199D6CAD-2025-4515-90C5-FC25F69DC04A/d:Formularios/d:TestAtencion/f:MainFormTA.cs" caret="17132" fromTop="8" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/f:XLS_Row.cs" caret="808" fromTop="6" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/f:XLS_Row.cs" caret="1557" fromTop="17" />
+      <File id="2DF35264-EF2D-46B9-B379-B5C17EE04829/f:XLS_Row.cs" caret="2063" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
